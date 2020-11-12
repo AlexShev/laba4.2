@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="FactoryShape" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAABAAAAAAAAAAAAAAAAAABAAAAAAEAAAA=</HashCode>
+      <FileName>FactoryShape.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IsoscelesTriangle" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.75" />
+    <InheritanceLine Type="Triangle" ManuallyRouted="true">
+      <Path>
+        <Point X="2.375" Y="4.738" />
+        <Point X="2.375" Y="6.2" />
+        <Point X="1.375" Y="6.2" />
+        <Point X="1.375" Y="6.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAEAAAAAAAAAAAAAAgAAAAAAAACAgAAAAAAA=</HashCode>
+      <FileName>IsoscelesTriangle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Point" Collapsed="true">
+    <Position X="1.75" Y="2.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAQAgAAAAAAAAQAAAAEAAAAAAAAgAIAAYAA=</HashCode>
+      <FileName>Point.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RightTriangle" Collapsed="true">
+    <Position X="2.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAACAwAAAAAAI=</HashCode>
+      <FileName>RightTriangle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shape" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAUAwgoqAIQBACABFAAEEABAAACAgAAIIAIA=</HashCode>
+      <FileName>Shape.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Triangle" Collapsed="true">
+    <Position X="1.75" Y="4" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAUAQAAABAAAAAAAAAAAAAAAAACAgAAAAAAA=</HashCode>
+      <FileName>Triangle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RightIsoscelesTriangle" Collapsed="true">
+    <Position X="2.5" Y="6.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAQACAgQAAAAAA=</HashCode>
+      <FileName>RightIsoscelesTriangle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quadrangle" Collapsed="true">
+    <Position X="6.75" Y="4" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAACAwAAAAAAA=</HashCode>
+      <FileName>Quadrangle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EquilateralTriangle" Collapsed="true">
+    <Position X="0.5" Y="5.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAEAAAAAAAAAAAAgAAAAAAAAAACAgAAAAAAA=</HashCode>
+      <FileName>EquilateralTriangle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Trapeze" Collapsed="true">
+    <Position X="8.25" Y="6.5" Width="1.25" />
+    <InheritanceLine Type="Quadrangle" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="7.375" Y="4.738" />
+        <Point X="7.375" Y="6.2" />
+        <Point X="8.875" Y="6.2" />
+        <Point X="8.875" Y="6.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAEAAAAAAAAAAAAAAAAAAAAACAgAAAAABA=</HashCode>
+      <FileName>Trapeze.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rhombus" Collapsed="true">
+    <Position X="5.75" Y="5.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAQAAQAAAAAAAAAACAgAAAAAAA=</HashCode>
+      <FileName>Rhombus.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rectangle" Collapsed="true">
+    <Position X="5.25" Y="6.5" Width="1.25" />
+    <InheritanceLine Type="Quadrangle" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="7.375" Y="4.738" />
+        <Point X="7.375" Y="6.2" />
+        <Point X="5.875" Y="6.2" />
+        <Point X="5.875" Y="6.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAQgAAAAACAgAAAAAAA=</HashCode>
+      <FileName>Rectangle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quadrate" Collapsed="true">
+    <Position X="6.75" Y="6.5" Width="1.25" />
+    <InheritanceLine Type="Quadrangle" ManuallyRouted="true">
+      <Path>
+        <Point X="7.375" Y="4.738" />
+        <Point X="7.375" Y="6.619" />
+        <Point X="7.375" Y="6.619" />
+        <Point X="7.375" Y="6.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAABCAAAAAACAgAAAAAAA=</HashCode>
+      <FileName>Quadrate.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Parallelogram" Collapsed="true">
+    <Position X="7.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAgAgAAAAAAAAAAAAAAAAACAgAAAAAAA=</HashCode>
+      <FileName>Parallelogram.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleForFactoryShape" Collapsed="true">
+    <Position X="9.5" Y="1.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ConcoleForFactoryShape.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pentagon" Collapsed="true">
+    <Position X="3.25" Y="4" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAACAgAAAAAAA=</HashCode>
+      <FileName>Pentagon.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hexagon" Collapsed="true">
+    <Position X="5" Y="4" Width="1.25" />
+    <InheritanceLine Type="Shape" ManuallyRouted="true">
+      <Path>
+        <Point X="4.75" Y="3.096" />
+        <Point X="4.75" Y="3.625" />
+        <Point X="5.625" Y="3.625" />
+        <Point X="5.625" Y="4" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAgACAAAAA=</HashCode>
+      <FileName>Hexagon.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Console" Collapsed="true">
+    <Position X="9.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAIAAAACAAAAQAiCCAAAgAQICEFgIQACAABBgAI=</HashCode>
+      <FileName>Console.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sheet" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAggAEIAAAAKQACACAACAQAAAIEAAACAAIAAAABAAAA=</HashCode>
+      <FileName>Sheet.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="10" />
+</ClassDiagram>
